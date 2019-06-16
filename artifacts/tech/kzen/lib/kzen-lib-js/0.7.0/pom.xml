@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tech.kzen.auto</groupId>
-    <artifactId>kzen-auto-js</artifactId>
+    <artifactId>kzen-lib-js</artifactId>
     <version>0.7.0</version>
 
     <properties>

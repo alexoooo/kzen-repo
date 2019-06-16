@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tech.kzen.auto</groupId>
-    <artifactId>kzen-auto-jvm</artifactId>
+    <artifactId>kzen-lib-jvm</artifactId>
     <version>0.7.0</version>
 
     <properties>

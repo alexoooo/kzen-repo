@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tech.kzen.lib</groupId>
-    <artifactId>kzen-lib-js</artifactId>
-    <version>0.13.2</version>
+    <artifactId>kzen-lib-common-js</artifactId>
+    <version>0.13.3</version>
 
     <properties>
         <kotlin.version>1.3.72</kotlin.version>

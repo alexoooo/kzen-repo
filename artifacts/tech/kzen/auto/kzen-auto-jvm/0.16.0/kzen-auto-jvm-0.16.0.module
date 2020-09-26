@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-jvm",
+    "version": "0.16.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "4htazsilf5gmvks7fvrjsvl6s4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 14,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-jvm-0.16.0.jar",
+          "url": "kzen-auto-jvm-0.16.0.jar",
+          "size": 3282815,
+          "sha512": "70651149e941689783b60929711ff15c94471ec1cb9e28b13e243d432af74774ab90e1125e2983cdfa32c688625623bfa20a67cebdd744df5e53f620737ca395",
+          "sha256": "cc10a96efd3a49e925d797658fc714df5d39e3edea5b111d960036c7e5eea624",
+          "sha1": "51474ad379a41e8afaa841e9027dbb36df152e6d",
+          "md5": "79e5954185f784badcf61d433f081719"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 14,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-jvm",
+          "version": {
+            "requires": "1.3.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "kotlin-css-jvm",
+          "version": {
+            "requires": "1.0.0-pre.116-kotlin-1.4.10"
+          }
+        },
+        {
+          "group": "tech.kzen.auto",
+          "module": "kzen-auto-common",
+          "version": {
+            "requires": "0.16.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-common-jvm",
+          "version": {
+            "requires": "0.16.0"
+          }
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-jvm",
+          "version": {
+            "requires": "0.16.0"
+          }
+        },
+        {
+          "group": "com.github.andrewoma.dexx",
+          "module": "collection",
+          "version": {
+            "requires": "0.7"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "29.0-jre"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "3.141.59"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.20"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-csv",
+          "version": {
+            "requires": "1.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-jvm-0.16.0.jar",
+          "url": "kzen-auto-jvm-0.16.0.jar",
+          "size": 3282815,
+          "sha512": "70651149e941689783b60929711ff15c94471ec1cb9e28b13e243d432af74774ab90e1125e2983cdfa32c688625623bfa20a67cebdd744df5e53f620737ca395",
+          "sha256": "cc10a96efd3a49e925d797658fc714df5d39e3edea5b111d960036c7e5eea624",
+          "sha1": "51474ad379a41e8afaa841e9027dbb36df152e6d",
+          "md5": "79e5954185f784badcf61d433f081719"
+        }
+      ]
+    }
+  ]
+}

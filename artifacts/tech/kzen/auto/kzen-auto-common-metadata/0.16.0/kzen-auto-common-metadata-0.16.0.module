@@ -1,0 +1,47 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kzen-auto-common/0.16.0/kzen-auto-common-0.16.0.module",
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-common",
+    "version": "0.16.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "4htazsilf5gmvks7fvrjsvl6s4"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-common-metadata-0.16.0.jar",
+          "url": "kzen-auto-common-metadata-0.16.0.jar",
+          "size": 97462,
+          "sha512": "115103ab920967cfac7917c5096471899ddd0f86297fdc617f159dad820bba45d24000207f3df50869a3376e9c5fd5abd80ebd4cd3c2f92d5c5eb8c126aed06c",
+          "sha256": "77247e59ba6f25c279d45adf82d5840924b981b3248b91ed2245aab006c3b753",
+          "sha1": "2e169e1c444b670252300e2b7f610f15ecf6517c",
+          "md5": "a57dc5385d49687b42584b5faf4a3363"
+        }
+      ]
+    }
+  ]
+}

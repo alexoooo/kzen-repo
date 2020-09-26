@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-common",
+    "version": "0.16.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "4htazsilf5gmvks7fvrjsvl6s4"
+    }
+  },
+  "variants": [
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kzen-auto-common-js/0.16.0/kzen-auto-common-js-0.16.0.module",
+        "group": "tech.kzen.auto",
+        "module": "kzen-auto-common-js",
+        "version": "0.16.0"
+      }
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kzen-auto-common-js/0.16.0/kzen-auto-common-js-0.16.0.module",
+        "group": "tech.kzen.auto",
+        "module": "kzen-auto-common-js",
+        "version": "0.16.0"
+      }
+    },
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kzen-auto-common-jvm/0.16.0/kzen-auto-common-jvm-0.16.0.module",
+        "group": "tech.kzen.auto",
+        "module": "kzen-auto-common-jvm",
+        "version": "0.16.0"
+      }
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../kzen-auto-common-jvm/0.16.0/kzen-auto-common-jvm-0.16.0.module",
+        "group": "tech.kzen.auto",
+        "module": "kzen-auto-common-jvm",
+        "version": "0.16.0"
+      }
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kzen-auto-common-metadata/0.16.0/kzen-auto-common-metadata-0.16.0.module",
+        "group": "tech.kzen.auto",
+        "module": "kzen-auto-common-metadata",
+        "version": "0.16.0"
+      }
+    }
+  ]
+}

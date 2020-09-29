@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>tech.kzen.auto</groupId>
   <artifactId>kzen-auto-js</artifactId>
-  <version>0.16.0</version>
+  <version>0.16.1</version>
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
@@ -20,7 +20,7 @@
     <dependency>
       <groupId>tech.kzen.auto</groupId>
       <artifactId>kzen-auto-common</artifactId>
-      <version>0.16.0</version>
+      <version>0.16.1</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

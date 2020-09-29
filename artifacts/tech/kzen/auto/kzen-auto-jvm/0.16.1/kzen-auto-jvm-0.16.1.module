@@ -3,7 +3,7 @@
   "component": {
     "group": "tech.kzen.auto",
     "module": "kzen-auto-jvm",
-    "version": "0.16.0",
+    "version": "0.16.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.6.1",
-      "buildId": "4htazsilf5gmvks7fvrjsvl6s4"
+      "buildId": "v35im6qiarc2bi7uzuwidtpecu"
     }
   },
   "variants": [
@@ -37,13 +37,13 @@
       ],
       "files": [
         {
-          "name": "kzen-auto-jvm-0.16.0.jar",
-          "url": "kzen-auto-jvm-0.16.0.jar",
-          "size": 3282815,
-          "sha512": "70651149e941689783b60929711ff15c94471ec1cb9e28b13e243d432af74774ab90e1125e2983cdfa32c688625623bfa20a67cebdd744df5e53f620737ca395",
-          "sha256": "cc10a96efd3a49e925d797658fc714df5d39e3edea5b111d960036c7e5eea624",
-          "sha1": "51474ad379a41e8afaa841e9027dbb36df152e6d",
-          "md5": "79e5954185f784badcf61d433f081719"
+          "name": "kzen-auto-jvm-0.16.1.jar",
+          "url": "kzen-auto-jvm-0.16.1.jar",
+          "size": 3283561,
+          "sha512": "a01b35edae5416e957a22bdce1cb3a1f03948f9bd3cf64fa6b13e4171e3ace0ed0e451efc6b565fb445c4a0b4fb0c02a825def43b0267a855474a6490e471d6d",
+          "sha256": "1aee1b1c8aa1f8918bcbf78d769dfcdc4b8c2b1aff7bd586b5165f7d60306b2b",
+          "sha1": "02b5570dbf26d3e7069c9ce243bed4262a14099b",
+          "md5": "b03670d3a91708453e61d4a50871d4c1"
         }
       ]
     },
@@ -91,7 +91,7 @@
           "group": "tech.kzen.auto",
           "module": "kzen-auto-common",
           "version": {
-            "requires": "0.16.0"
+            "requires": "0.16.1"
           }
         },
         {
@@ -157,13 +157,13 @@
       ],
       "files": [
         {
-          "name": "kzen-auto-jvm-0.16.0.jar",
-          "url": "kzen-auto-jvm-0.16.0.jar",
-          "size": 3282815,
-          "sha512": "70651149e941689783b60929711ff15c94471ec1cb9e28b13e243d432af74774ab90e1125e2983cdfa32c688625623bfa20a67cebdd744df5e53f620737ca395",
-          "sha256": "cc10a96efd3a49e925d797658fc714df5d39e3edea5b111d960036c7e5eea624",
-          "sha1": "51474ad379a41e8afaa841e9027dbb36df152e6d",
-          "md5": "79e5954185f784badcf61d433f081719"
+          "name": "kzen-auto-jvm-0.16.1.jar",
+          "url": "kzen-auto-jvm-0.16.1.jar",
+          "size": 3283561,
+          "sha512": "a01b35edae5416e957a22bdce1cb3a1f03948f9bd3cf64fa6b13e4171e3ace0ed0e451efc6b565fb445c4a0b4fb0c02a825def43b0267a855474a6490e471d6d",
+          "sha256": "1aee1b1c8aa1f8918bcbf78d769dfcdc4b8c2b1aff7bd586b5165f7d60306b2b",
+          "sha1": "02b5570dbf26d3e7069c9ce243bed4262a14099b",
+          "md5": "b03670d3a91708453e61d4a50871d4c1"
         }
       ]
     }

@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.kzen.lib",
+    "module": "kzen-lib-js",
+    "version": "0.17.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "7r6gld2y75ah5l5nxf555zsv4u"
+    }
+  },
+  "variants": [
+    {
+      "name": "js-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-lib-js-0.17.0.jar",
+          "url": "kzen-lib-js-0.17.0.jar",
+          "size": 45079,
+          "sha512": "c56a11d4405e43e73876dce71922cd83d9b462d6c30b204876ca447dc860c48f44cbfe3160e1b15372ae54449905c2ad438c4c4b9c8b6bb5f77252d0eb890238",
+          "sha256": "646864fb99c6d520448f3f5a0dbfd97eed86187626a1d301f2da13fffed6a77b",
+          "sha1": "e3523020efd6355256cb4e02b6160a11d10880c9",
+          "md5": "7121ad5f4fe4e8d6703bddfbc98573bc"
+        }
+      ]
+    },
+    {
+      "name": "js-runtime",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-common",
+          "version": {
+            "requires": "0.17.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-lib-js-0.17.0.jar",
+          "url": "kzen-lib-js-0.17.0.jar",
+          "size": 45079,
+          "sha512": "c56a11d4405e43e73876dce71922cd83d9b462d6c30b204876ca447dc860c48f44cbfe3160e1b15372ae54449905c2ad438c4c4b9c8b6bb5f77252d0eb890238",
+          "sha256": "646864fb99c6d520448f3f5a0dbfd97eed86187626a1d301f2da13fffed6a77b",
+          "sha1": "e3523020efd6355256cb4e02b6160a11d10880c9",
+          "md5": "7121ad5f4fe4e8d6703bddfbc98573bc"
+        }
+      ]
+    },
+    {
+      "name": "js-jsCommonFakeApiElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      }
+    }
+  ]
+}

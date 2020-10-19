@@ -3,7 +3,7 @@
   "component": {
     "group": "tech.kzen.lib",
     "module": "kzen-lib-jvm",
-    "version": "0.17.0",
+    "version": "0.17.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7",
-      "buildId": "7r6gld2y75ah5l5nxf555zsv4u"
+      "buildId": "noqfyqhn7jae3nsy7bopcpo5uy"
     }
   },
   "variants": [
@@ -37,13 +37,13 @@
       ],
       "files": [
         {
-          "name": "kzen-lib-jvm-0.17.0.jar",
-          "url": "kzen-lib-jvm-0.17.0.jar",
+          "name": "kzen-lib-jvm-0.17.1.jar",
+          "url": "kzen-lib-jvm-0.17.1.jar",
           "size": 66280,
-          "sha512": "d370d94ff307503718cdf38936da0ac83a139a7518a95b19055b2bfb2435fcd5e43c17b8cef8515266cac019a2cbd149e32efb919940d86a6f7805591c337994",
-          "sha256": "2c9995424a54dbb42271070b99de383de1303a58286cd9ca38c80fad4b6cce65",
-          "sha1": "e3f2dc97957fe60752f73426d53c167752f2de6b",
-          "md5": "aa3a8c9cf5e2a73319d0cd3fcc804a92"
+          "sha512": "386879146b9fe830cde722af0dffe4332bd995153e976d13de275f4a0ad542e62440468fa8ed9d43ba5f82c9782e75ff229a2e6a69ef94fe2549e21c7be36492",
+          "sha256": "ec10474de5d78beb34872f58b6a420ab8433009c21ed9966c59171af1217aee2",
+          "sha1": "7a1b0a6efa18178bfb74917b225e209aa99af181",
+          "md5": "802b434a403e44536872024198153d57"
         }
       ]
     },
@@ -91,7 +91,7 @@
           "group": "tech.kzen.lib",
           "module": "kzen-lib-common",
           "version": {
-            "requires": "0.17.0"
+            "requires": "0.17.1"
           }
         },
         {
@@ -104,13 +104,13 @@
       ],
       "files": [
         {
-          "name": "kzen-lib-jvm-0.17.0.jar",
-          "url": "kzen-lib-jvm-0.17.0.jar",
+          "name": "kzen-lib-jvm-0.17.1.jar",
+          "url": "kzen-lib-jvm-0.17.1.jar",
           "size": 66280,
-          "sha512": "d370d94ff307503718cdf38936da0ac83a139a7518a95b19055b2bfb2435fcd5e43c17b8cef8515266cac019a2cbd149e32efb919940d86a6f7805591c337994",
-          "sha256": "2c9995424a54dbb42271070b99de383de1303a58286cd9ca38c80fad4b6cce65",
-          "sha1": "e3f2dc97957fe60752f73426d53c167752f2de6b",
-          "md5": "aa3a8c9cf5e2a73319d0cd3fcc804a92"
+          "sha512": "386879146b9fe830cde722af0dffe4332bd995153e976d13de275f4a0ad542e62440468fa8ed9d43ba5f82c9782e75ff229a2e6a69ef94fe2549e21c7be36492",
+          "sha256": "ec10474de5d78beb34872f58b6a420ab8433009c21ed9966c59171af1217aee2",
+          "sha1": "7a1b0a6efa18178bfb74917b225e209aa99af181",
+          "md5": "802b434a403e44536872024198153d57"
         }
       ]
     }

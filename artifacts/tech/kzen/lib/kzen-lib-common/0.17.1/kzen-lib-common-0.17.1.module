@@ -3,7 +3,7 @@
   "component": {
     "group": "tech.kzen.lib",
     "module": "kzen-lib-common",
-    "version": "0.17.0",
+    "version": "0.17.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7",
-      "buildId": "7r6gld2y75ah5l5nxf555zsv4u"
+      "buildId": "noqfyqhn7jae3nsy7bopcpo5uy"
     }
   },
   "variants": [
@@ -23,10 +23,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-js/0.17.0/kzen-lib-common-js-0.17.0.module",
+        "url": "../../kzen-lib-common-js/0.17.1/kzen-lib-common-js-0.17.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-js",
-        "version": "0.17.0"
+        "version": "0.17.1"
       }
     },
     {
@@ -37,10 +37,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-js/0.17.0/kzen-lib-common-js-0.17.0.module",
+        "url": "../../kzen-lib-common-js/0.17.1/kzen-lib-common-js-0.17.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-js",
-        "version": "0.17.0"
+        "version": "0.17.1"
       }
     },
     {
@@ -51,10 +51,10 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-jvm/0.17.0/kzen-lib-common-jvm-0.17.0.module",
+        "url": "../../kzen-lib-common-jvm/0.17.1/kzen-lib-common-jvm-0.17.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-jvm",
-        "version": "0.17.0"
+        "version": "0.17.1"
       }
     },
     {
@@ -65,10 +65,10 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-jvm/0.17.0/kzen-lib-common-jvm-0.17.0.module",
+        "url": "../../kzen-lib-common-jvm/0.17.1/kzen-lib-common-jvm-0.17.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-jvm",
-        "version": "0.17.0"
+        "version": "0.17.1"
       }
     },
     {
@@ -78,10 +78,10 @@
         "org.jetbrains.kotlin.platform.type": "common"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-metadata/0.17.0/kzen-lib-common-metadata-0.17.0.module",
+        "url": "../../kzen-lib-common-metadata/0.17.1/kzen-lib-common-metadata-0.17.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-metadata",
-        "version": "0.17.0"
+        "version": "0.17.1"
       }
     }
   ]

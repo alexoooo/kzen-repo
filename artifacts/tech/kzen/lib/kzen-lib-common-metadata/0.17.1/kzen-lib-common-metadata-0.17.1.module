@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../kzen-lib-common/0.17.0/kzen-lib-common-0.17.0.module",
+    "url": "../../kzen-lib-common/0.17.1/kzen-lib-common-0.17.1.module",
     "group": "tech.kzen.lib",
     "module": "kzen-lib-common",
-    "version": "0.17.0",
+    "version": "0.17.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7",
-      "buildId": "7r6gld2y75ah5l5nxf555zsv4u"
+      "buildId": "noqfyqhn7jae3nsy7bopcpo5uy"
     }
   },
   "variants": [
@@ -33,13 +33,13 @@
       ],
       "files": [
         {
-          "name": "kzen-lib-common-metadata-0.17.0.jar",
-          "url": "kzen-lib-common-metadata-0.17.0.jar",
+          "name": "kzen-lib-common-metadata-0.17.1.jar",
+          "url": "kzen-lib-common-metadata-0.17.1.jar",
           "size": 122748,
-          "sha512": "dbabf3db4f2dc5e637d7ee99695ca03737f1937f1c044a26bc8b3072f1b52d581e1a8cfc21a03881db813fbdc371816af1258df1a827c390e739ea79f5ea26e2",
-          "sha256": "3423260d1a3dc2ad87ba8b5437295a5bf4cd04055d3c9cb5baf6cde099bb63d9",
-          "sha1": "759d77799ce98b1a06327e9b5b2ae47588ed3dd6",
-          "md5": "e080b6c8ad99ea753b72662be9480e75"
+          "sha512": "e606873839d603d6622cc9b66d6b6c29d3a105d4cbfe4f0f51760588c7d3a76b3d0157fa835bc2992628744d68bbb749e22cab6253cce92fa0efba561b9ea8d2",
+          "sha256": "124a20a33cfc85d1287cc4fc442148bc148a7e2b7c314f023ffe51e140d2636a",
+          "sha1": "ed0a8277bf7fb16cf1b3dd22cb4182c3565bc8df",
+          "md5": "555e867df1f115ff1692fc46c996775c"
         }
       ]
     }

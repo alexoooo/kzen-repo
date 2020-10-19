@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>tech.kzen.lib</groupId>
   <artifactId>kzen-lib-js</artifactId>
-  <version>0.17.0</version>
+  <version>0.17.1</version>
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
@@ -20,7 +20,7 @@
     <dependency>
       <groupId>tech.kzen.lib</groupId>
       <artifactId>kzen-lib-common</artifactId>
-      <version>0.17.0</version>
+      <version>0.17.1</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

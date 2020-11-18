@@ -12,7 +12,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7",
-      "buildId": "leyf5vl4inefveeqp6jncc6z3i"
+      "buildId": "tlvpymcfkzbztmdd57r4yaqt44"
     }
   },
   "variants": [
@@ -44,10 +44,10 @@
           "name": "kzen-auto-common-jvm-0.18.0.jar",
           "url": "kzen-auto-common-jvm-0.18.0.jar",
           "size": 514630,
-          "sha512": "feb790639151d1fcc9cc41b85f121397de63070fcd72a84216ab3b2723dfdf827189338dfc8f7c0ba01b7f88449a309774a8f65cfacb39fdd498818246e6d92a",
-          "sha256": "c629ba300e911862fbc0fa082d299c23f585db310c7f73a5e201bfa33aa0c649",
-          "sha1": "b4b168e8ac606137f05c5a96fda3b2d98fbf0294",
-          "md5": "8b06b77df9615913c8f03c253707e6c1"
+          "sha512": "f25b4f5006633983c4355600bbfcf64ea129cd34cf0d19391c1d9aa82c55a4f0e3f11a662f6e79b6e3b45d73a70c35b1e0b6ef24aa73fbd324a4db4ab035a783",
+          "sha256": "d79821853d31cea79a511e994ec2c963c60ef07bb2d17d4d6fcfcf0f806eb3ed",
+          "sha1": "772df6d26510d520b4dbe029f21bcc8c6205cc29",
+          "md5": "ab57d287100fcaaeb4fc54d5b93189a1"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "kzen-auto-common-jvm-0.18.0.jar",
           "url": "kzen-auto-common-jvm-0.18.0.jar",
           "size": 514630,
-          "sha512": "feb790639151d1fcc9cc41b85f121397de63070fcd72a84216ab3b2723dfdf827189338dfc8f7c0ba01b7f88449a309774a8f65cfacb39fdd498818246e6d92a",
-          "sha256": "c629ba300e911862fbc0fa082d299c23f585db310c7f73a5e201bfa33aa0c649",
-          "sha1": "b4b168e8ac606137f05c5a96fda3b2d98fbf0294",
-          "md5": "8b06b77df9615913c8f03c253707e6c1"
+          "sha512": "f25b4f5006633983c4355600bbfcf64ea129cd34cf0d19391c1d9aa82c55a4f0e3f11a662f6e79b6e3b45d73a70c35b1e0b6ef24aa73fbd324a4db4ab035a783",
+          "sha256": "d79821853d31cea79a511e994ec2c963c60ef07bb2d17d4d6fcfcf0f806eb3ed",
+          "sha1": "772df6d26510d520b4dbe029f21bcc8c6205cc29",
+          "md5": "ab57d287100fcaaeb4fc54d5b93189a1"
         }
       ]
     },

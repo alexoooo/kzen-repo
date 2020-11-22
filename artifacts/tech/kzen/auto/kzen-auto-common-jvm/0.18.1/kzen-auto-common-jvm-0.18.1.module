@@ -1,18 +1,18 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../kzen-auto-common/0.18.0/kzen-auto-common-0.18.0.module",
+    "url": "../../kzen-auto-common/0.18.1/kzen-auto-common-0.18.1.module",
     "group": "tech.kzen.auto",
     "module": "kzen-auto-common",
-    "version": "0.18.0",
+    "version": "0.18.1",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "6.7",
-      "buildId": "tlvpymcfkzbztmdd57r4yaqt44"
+      "version": "6.7.1",
+      "buildId": "klvkzwkon5ab7pnlei5ta55gj4"
     }
   },
   "variants": [
@@ -41,13 +41,13 @@
       ],
       "files": [
         {
-          "name": "kzen-auto-common-jvm-0.18.0.jar",
-          "url": "kzen-auto-common-jvm-0.18.0.jar",
-          "size": 514630,
-          "sha512": "f25b4f5006633983c4355600bbfcf64ea129cd34cf0d19391c1d9aa82c55a4f0e3f11a662f6e79b6e3b45d73a70c35b1e0b6ef24aa73fbd324a4db4ab035a783",
-          "sha256": "d79821853d31cea79a511e994ec2c963c60ef07bb2d17d4d6fcfcf0f806eb3ed",
-          "sha1": "772df6d26510d520b4dbe029f21bcc8c6205cc29",
-          "md5": "ab57d287100fcaaeb4fc54d5b93189a1"
+          "name": "kzen-auto-common-jvm-0.18.1.jar",
+          "url": "kzen-auto-common-jvm-0.18.1.jar",
+          "size": 515022,
+          "sha512": "133b7c7af3c434f01ab57cc6757425ed0d7f27fa13d504f1aeb3a92338502dc88fa985f25907259279954be452ebebe97cb7216e16d2ff3656a15aee27064a03",
+          "sha256": "61e05f99f7dbceb83bc49eb08b6dcf43f9a99c1e1854292c5230c35300cb78c8",
+          "sha1": "91c567cf24a30381f14c0b0e352360b24c361b80",
+          "md5": "4b6db4e233a6d2714d3b0c89bb7b647f"
         }
       ]
     },
@@ -118,13 +118,13 @@
       ],
       "files": [
         {
-          "name": "kzen-auto-common-jvm-0.18.0.jar",
-          "url": "kzen-auto-common-jvm-0.18.0.jar",
-          "size": 514630,
-          "sha512": "f25b4f5006633983c4355600bbfcf64ea129cd34cf0d19391c1d9aa82c55a4f0e3f11a662f6e79b6e3b45d73a70c35b1e0b6ef24aa73fbd324a4db4ab035a783",
-          "sha256": "d79821853d31cea79a511e994ec2c963c60ef07bb2d17d4d6fcfcf0f806eb3ed",
-          "sha1": "772df6d26510d520b4dbe029f21bcc8c6205cc29",
-          "md5": "ab57d287100fcaaeb4fc54d5b93189a1"
+          "name": "kzen-auto-common-jvm-0.18.1.jar",
+          "url": "kzen-auto-common-jvm-0.18.1.jar",
+          "size": 515022,
+          "sha512": "133b7c7af3c434f01ab57cc6757425ed0d7f27fa13d504f1aeb3a92338502dc88fa985f25907259279954be452ebebe97cb7216e16d2ff3656a15aee27064a03",
+          "sha256": "61e05f99f7dbceb83bc49eb08b6dcf43f9a99c1e1854292c5230c35300cb78c8",
+          "sha1": "91c567cf24a30381f14c0b0e352360b24c361b80",
+          "md5": "4b6db4e233a6d2714d3b0c89bb7b647f"
         }
       ]
     },
@@ -135,10 +135,10 @@
         "org.jetbrains.kotlin.platform.type": "common"
       },
       "available-at": {
-        "url": "../../kzen-auto-common-metadata/0.18.0/kzen-auto-common-metadata-0.18.0.module",
+        "url": "../../kzen-auto-common-metadata/0.18.1/kzen-auto-common-metadata-0.18.1.module",
         "group": "tech.kzen.auto",
         "module": "kzen-auto-common-metadata",
-        "version": "0.18.0"
+        "version": "0.18.1"
       }
     }
   ]

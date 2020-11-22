@@ -3,15 +3,15 @@
   "component": {
     "group": "tech.kzen.auto",
     "module": "kzen-auto-js",
-    "version": "0.18.0",
+    "version": "0.18.1",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "6.7",
-      "buildId": "tlvpymcfkzbztmdd57r4yaqt44"
+      "version": "6.7.1",
+      "buildId": "klvkzwkon5ab7pnlei5ta55gj4"
     }
   },
   "variants": [
@@ -33,13 +33,13 @@
       ],
       "files": [
         {
-          "name": "kzen-auto-js-0.18.0.jar",
-          "url": "kzen-auto-js-0.18.0.jar",
-          "size": 381187,
-          "sha512": "c9bc0629daa96d7b2740320dadcbeb50d2eec5c52bb020c2fbdc407995275a4e2b9542099a1c3b7b0c3c3e872f173d253d050f860a953ad0fdf51ae922f59c1e",
-          "sha256": "e26e9872d2303d7fd0da62a2099db5159902db928941f7462f5d19a64abe8724",
-          "sha1": "7ebb03c37e4c1b58ded5ab4a74c06492540cc8f3",
-          "md5": "f67b5eb1adfb8879152120855636f190"
+          "name": "kzen-auto-js-0.18.1.jar",
+          "url": "kzen-auto-js-0.18.1.jar",
+          "size": 381188,
+          "sha512": "0aa125944920b1346133066a3a198ee77fe0a9c5fd2c69ad00eeb1a673cb9490da21d611076e725faed99eabec3f3cc9c8c8db4e1bd318beef3cf708e88f3457",
+          "sha256": "469a0777fdfdca73f4bd047a4a6f4883cc48d964bc74b10f33a13b6fdbf746f4",
+          "sha1": "1d3581fa903a51ead4391644a58ff15ab3496774",
+          "md5": "17dc6f3b1ec582c7479a319a52c8593f"
         }
       ]
     },
@@ -55,7 +55,7 @@
           "group": "tech.kzen.auto",
           "module": "kzen-auto-common",
           "version": {
-            "requires": "0.18.0"
+            "requires": "0.18.1"
           }
         },
         {
@@ -124,13 +124,13 @@
       ],
       "files": [
         {
-          "name": "kzen-auto-js-0.18.0.jar",
-          "url": "kzen-auto-js-0.18.0.jar",
-          "size": 381187,
-          "sha512": "c9bc0629daa96d7b2740320dadcbeb50d2eec5c52bb020c2fbdc407995275a4e2b9542099a1c3b7b0c3c3e872f173d253d050f860a953ad0fdf51ae922f59c1e",
-          "sha256": "e26e9872d2303d7fd0da62a2099db5159902db928941f7462f5d19a64abe8724",
-          "sha1": "7ebb03c37e4c1b58ded5ab4a74c06492540cc8f3",
-          "md5": "f67b5eb1adfb8879152120855636f190"
+          "name": "kzen-auto-js-0.18.1.jar",
+          "url": "kzen-auto-js-0.18.1.jar",
+          "size": 381188,
+          "sha512": "0aa125944920b1346133066a3a198ee77fe0a9c5fd2c69ad00eeb1a673cb9490da21d611076e725faed99eabec3f3cc9c8c8db4e1bd318beef3cf708e88f3457",
+          "sha256": "469a0777fdfdca73f4bd047a4a6f4883cc48d964bc74b10f33a13b6fdbf746f4",
+          "sha1": "1d3581fa903a51ead4391644a58ff15ab3496774",
+          "md5": "17dc6f3b1ec582c7479a319a52c8593f"
         }
       ]
     },

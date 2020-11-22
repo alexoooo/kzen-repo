@@ -3,15 +3,15 @@
   "component": {
     "group": "tech.kzen.auto",
     "module": "kzen-auto-common",
-    "version": "0.18.0",
+    "version": "0.18.1",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "6.7",
-      "buildId": "tlvpymcfkzbztmdd57r4yaqt44"
+      "version": "6.7.1",
+      "buildId": "klvkzwkon5ab7pnlei5ta55gj4"
     }
   },
   "variants": [
@@ -23,10 +23,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kzen-auto-common-js/0.18.0/kzen-auto-common-js-0.18.0.module",
+        "url": "../../kzen-auto-common-js/0.18.1/kzen-auto-common-js-0.18.1.module",
         "group": "tech.kzen.auto",
         "module": "kzen-auto-common-js",
-        "version": "0.18.0"
+        "version": "0.18.1"
       }
     },
     {
@@ -37,10 +37,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kzen-auto-common-js/0.18.0/kzen-auto-common-js-0.18.0.module",
+        "url": "../../kzen-auto-common-js/0.18.1/kzen-auto-common-js-0.18.1.module",
         "group": "tech.kzen.auto",
         "module": "kzen-auto-common-js",
-        "version": "0.18.0"
+        "version": "0.18.1"
       }
     },
     {
@@ -51,10 +51,10 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kzen-auto-common-jvm/0.18.0/kzen-auto-common-jvm-0.18.0.module",
+        "url": "../../kzen-auto-common-jvm/0.18.1/kzen-auto-common-jvm-0.18.1.module",
         "group": "tech.kzen.auto",
         "module": "kzen-auto-common-jvm",
-        "version": "0.18.0"
+        "version": "0.18.1"
       }
     },
     {
@@ -65,10 +65,10 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kzen-auto-common-jvm/0.18.0/kzen-auto-common-jvm-0.18.0.module",
+        "url": "../../kzen-auto-common-jvm/0.18.1/kzen-auto-common-jvm-0.18.1.module",
         "group": "tech.kzen.auto",
         "module": "kzen-auto-common-jvm",
-        "version": "0.18.0"
+        "version": "0.18.1"
       }
     },
     {
@@ -78,10 +78,10 @@
         "org.jetbrains.kotlin.platform.type": "common"
       },
       "available-at": {
-        "url": "../../kzen-auto-common-metadata/0.18.0/kzen-auto-common-metadata-0.18.0.module",
+        "url": "../../kzen-auto-common-metadata/0.18.1/kzen-auto-common-metadata-0.18.1.module",
         "group": "tech.kzen.auto",
         "module": "kzen-auto-common-metadata",
-        "version": "0.18.0"
+        "version": "0.18.1"
       }
     }
   ]

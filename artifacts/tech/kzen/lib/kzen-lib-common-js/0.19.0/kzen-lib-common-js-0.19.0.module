@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kzen-lib-common/0.19.0/kzen-lib-common-0.19.0.module",
+    "group": "tech.kzen.lib",
+    "module": "kzen-lib-common",
+    "version": "0.19.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "qy2plcrkgrg75pocbnl4xgwwbq"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-lib-common-js-0.19.0.jar",
+          "url": "kzen-lib-common-js-0.19.0.jar",
+          "size": 280292,
+          "sha512": "cfead19af1e666f46cd5b203e3c5a9b2a18b42188c2e82ef771812a6cc12bb7efae17096b50f4f8d25c7de478f5e4ac9f418c86f64f5dac387a7e38ef1aa6f63",
+          "sha256": "a5306f41cf5e2463601790fa78aaa5ee2de382272ee42afc394a3d79f38c5228",
+          "sha1": "63dfee509a43ed37217598ffeda45a9fc49148ca",
+          "md5": "a1d0d4bd6d0fa46581bc146e1bbb8c73"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-js",
+          "version": {
+            "requires": "1.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-lib-common-js-0.19.0.jar",
+          "url": "kzen-lib-common-js-0.19.0.jar",
+          "size": 280292,
+          "sha512": "cfead19af1e666f46cd5b203e3c5a9b2a18b42188c2e82ef771812a6cc12bb7efae17096b50f4f8d25c7de478f5e4ac9f418c86f64f5dac387a7e38ef1aa6f63",
+          "sha256": "a5306f41cf5e2463601790fa78aaa5ee2de382272ee42afc394a3d79f38c5228",
+          "sha1": "63dfee509a43ed37217598ffeda45a9fc49148ca",
+          "md5": "a1d0d4bd6d0fa46581bc146e1bbb8c73"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kzen-lib-common-metadata/0.19.0/kzen-lib-common-metadata-0.19.0.module",
+        "group": "tech.kzen.lib",
+        "module": "kzen-lib-common-metadata",
+        "version": "0.19.0"
+      }
+    }
+  ]
+}

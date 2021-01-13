@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-js",
+    "version": "0.20.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "aikqswpvw5b77hgjpxupmqmmpy"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-js-0.20.0.jar",
+          "url": "kzen-auto-js-0.20.0.jar",
+          "size": 391613,
+          "sha512": "5fa5afa86aa65bd598b61ac7b4bb3957551495836209dda6129354ba810b651d8664d8ed205501238be9edc9f1dc8832a51e33a64429314ba2f6754852b23580",
+          "sha256": "7100a24f5761f4c3743f5cea3f617b1739d8bbab2c1641a0e119db8df1fd49a1",
+          "sha1": "c2b3338ec385f83529b1556a3c6e0de35fa40744",
+          "md5": "f20f5468ae0af3dfc5c808e3e61c57c1"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "tech.kzen.auto",
+          "module": "kzen-auto-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-html-assembly",
+          "version": {
+            "requires": "0.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "kotlin-react",
+          "version": {
+            "requires": "17.0.0-pre.134-kotlin-1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "kotlin-react-dom",
+          "version": {
+            "requires": "17.0.0-pre.134-kotlin-1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "kotlin-styled",
+          "version": {
+            "requires": "5.2.0-pre.134-kotlin-1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "kotlin-extensions",
+          "version": {
+            "requires": "1.0.1-pre.134-kotlin-1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "kotlin-css-js",
+          "version": {
+            "requires": "1.0.0-pre.134-kotlin-1.4.21"
+          }
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-common-js",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-js",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-js-0.20.0.jar",
+          "url": "kzen-auto-js-0.20.0.jar",
+          "size": 391613,
+          "sha512": "5fa5afa86aa65bd598b61ac7b4bb3957551495836209dda6129354ba810b651d8664d8ed205501238be9edc9f1dc8832a51e33a64429314ba2f6754852b23580",
+          "sha256": "7100a24f5761f4c3743f5cea3f617b1739d8bbab2c1641a0e119db8df1fd49a1",
+          "sha1": "c2b3338ec385f83529b1556a3c6e0de35fa40744",
+          "md5": "f20f5468ae0af3dfc5c808e3e61c57c1"
+        }
+      ]
+    },
+    {
+      "name": "jsCommonFakeApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      }
+    }
+  ]
+}

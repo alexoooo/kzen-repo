@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kzen-auto-common/0.20.0/kzen-auto-common-0.20.0.module",
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-common",
+    "version": "0.20.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "aikqswpvw5b77hgjpxupmqmmpy"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-common-jvm-0.20.0.jar",
+          "url": "kzen-auto-common-jvm-0.20.0.jar",
+          "size": 521421,
+          "sha512": "04688ef623abb32848968509eb4692ec2ba73eb51cb77d584ae739bae4fa136f397e7c85e9acaef1123a4d965d24a866bd5e39c3a76667c5df2947a4f7bc688f",
+          "sha256": "696479721eaaf8baeb50c5f511ec45f0f9733435acca10de79bbc420e06f6af7",
+          "sha1": "6600b23c2846de2c20119b02ca752a9f62cb41dd",
+          "md5": "9594abd087fdd403a2a75c2de464d2d8"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "kotlin-css-jvm",
+          "version": {
+            "requires": "1.0.0-pre.134-kotlin-1.4.21"
+          }
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-common-jvm",
+          "version": {
+            "requires": "0.20.0"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "kotlin-css",
+          "version": {
+            "requires": "1.0.0-pre.134-kotlin-1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-common",
+          "version": {
+            "requires": "0.20.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-common-jvm-0.20.0.jar",
+          "url": "kzen-auto-common-jvm-0.20.0.jar",
+          "size": 521421,
+          "sha512": "04688ef623abb32848968509eb4692ec2ba73eb51cb77d584ae739bae4fa136f397e7c85e9acaef1123a4d965d24a866bd5e39c3a76667c5df2947a4f7bc688f",
+          "sha256": "696479721eaaf8baeb50c5f511ec45f0f9733435acca10de79bbc420e06f6af7",
+          "sha1": "6600b23c2846de2c20119b02ca752a9f62cb41dd",
+          "md5": "9594abd087fdd403a2a75c2de464d2d8"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kzen-auto-common-metadata/0.20.0/kzen-auto-common-metadata-0.20.0.module",
+        "group": "tech.kzen.auto",
+        "module": "kzen-auto-common-metadata",
+        "version": "0.20.0"
+      }
+    }
+  ]
+}

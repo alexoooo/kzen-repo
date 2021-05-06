@@ -3,7 +3,7 @@
   "component": {
     "group": "tech.kzen.lib",
     "module": "kzen-lib-common",
-    "version": "0.22.0",
+    "version": "0.22.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -32,19 +32,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.5.0-RC"
+            "requires": "1.5.0"
           }
         }
       ],
       "files": [
         {
-          "name": "kzen-lib-common-metadata-0.22.0.jar",
-          "url": "kzen-lib-common-0.22.0.jar",
-          "size": 130965,
-          "sha512": "3400f93eebbd28876f16a2d9d93452c884f094c5abf5f1291718deebadd08f59de0d5d6b2b1d34a60fdcb0692502dc53d793b5abb22255154e84c8c0d30c0d29",
-          "sha256": "4ff5911bda4ffd39d8e68621a26addfbf3447e472a4f261382542dd8f15af980",
-          "sha1": "ac27baa8a126c89ee230dc21d850b9e88b55a3c4",
-          "md5": "72c844355345dfae8da3d1fcb00cf03b"
+          "name": "kzen-lib-common-metadata-0.22.1.jar",
+          "url": "kzen-lib-common-0.22.1.jar",
+          "size": 130909,
+          "sha512": "0f274b717503f7c6166e343079c09fb5d56f581567e522f8b1b68ebe914a98b06b228b4bf3b67ff468bf8a3c653d6df14598d50fb5e3543b4641929f45427442",
+          "sha256": "2eb8f3b2f70bdac08fbba2695064ad62aadba2cc1f19026332816f0f4f728d8c",
+          "sha1": "6256e8a6632431ba83d7d205123d0e2d7b5483b6",
+          "md5": "09402e67714350539dc60596ac9e733a"
         }
       ]
     },
@@ -56,10 +56,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-js/0.22.0/kzen-lib-common-js-0.22.0.module",
+        "url": "../../kzen-lib-common-js/0.22.1/kzen-lib-common-js-0.22.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-js",
-        "version": "0.22.0"
+        "version": "0.22.1"
       }
     },
     {
@@ -70,10 +70,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-js/0.22.0/kzen-lib-common-js-0.22.0.module",
+        "url": "../../kzen-lib-common-js/0.22.1/kzen-lib-common-js-0.22.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-js",
-        "version": "0.22.0"
+        "version": "0.22.1"
       }
     },
     {
@@ -84,10 +84,10 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-jvm/0.22.0/kzen-lib-common-jvm-0.22.0.module",
+        "url": "../../kzen-lib-common-jvm/0.22.1/kzen-lib-common-jvm-0.22.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-jvm",
-        "version": "0.22.0"
+        "version": "0.22.1"
       }
     },
     {
@@ -98,10 +98,10 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-jvm/0.22.0/kzen-lib-common-jvm-0.22.0.module",
+        "url": "../../kzen-lib-common-jvm/0.22.1/kzen-lib-common-jvm-0.22.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-jvm",
-        "version": "0.22.0"
+        "version": "0.22.1"
       }
     }
   ]

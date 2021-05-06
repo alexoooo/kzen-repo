@@ -1,10 +1,10 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "url": "../../kzen-lib-common/0.22.0/kzen-lib-common-0.22.0.module",
+    "url": "../../kzen-lib-common/0.22.1/kzen-lib-common-0.22.1.module",
     "group": "tech.kzen.lib",
     "module": "kzen-lib-common",
-    "version": "0.22.0",
+    "version": "0.22.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -34,7 +34,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-js",
           "version": {
-            "requires": "1.5.0-RC"
+            "requires": "1.5.0"
           }
         },
         {
@@ -48,19 +48,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.5.0-RC"
+            "requires": "1.5.0"
           }
         }
       ],
       "files": [
         {
-          "name": "kzen-lib-common-js-0.22.0.jar",
-          "url": "kzen-lib-common-js-0.22.0.jar",
-          "size": 295893,
-          "sha512": "1f7c3b53a1964b7b4be9a7a4959ce7d0c95ec54abec85e12e9fdc93f6b01561e8e0f5b0a1a4fdb1a36d074bd59f8964c6cf378f0233acf4a3ce03c9bcd41099f",
-          "sha256": "48c95bcce07f195923b5780877afe2fccdc171585b9266deeecca08b1358c40e",
-          "sha1": "8c5b28afad90f53b9d4fdbb2eb4b20a948b2a961",
-          "md5": "b5f9e2154448c63307280433d934455b"
+          "name": "kzen-lib-common-js-0.22.1.jar",
+          "url": "kzen-lib-common-js-0.22.1.jar",
+          "size": 295920,
+          "sha512": "4ff91f0f9a9193d20a8ed6961dba92135f846ce09a6f05e4f15aa2f4abfe8064b64f2a9303268c3fcee791879d263c74038d44b9814c037fcfea8f29e827e162",
+          "sha256": "5fb8f887e9fae026ba585ef6b84abbe67cf2d05fee3f9fe4b91912293d38e4b6",
+          "sha1": "04b0577720a01bb38fbadd773c3e3992e9aeab32",
+          "md5": "f6489d89c2eb6353315e00cdc1ce952f"
         }
       ]
     },
@@ -83,7 +83,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-js",
           "version": {
-            "requires": "1.5.0-RC"
+            "requires": "1.5.0"
           }
         },
         {
@@ -97,19 +97,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.5.0-RC"
+            "requires": "1.5.0"
           }
         }
       ],
       "files": [
         {
-          "name": "kzen-lib-common-js-0.22.0.jar",
-          "url": "kzen-lib-common-js-0.22.0.jar",
-          "size": 295893,
-          "sha512": "1f7c3b53a1964b7b4be9a7a4959ce7d0c95ec54abec85e12e9fdc93f6b01561e8e0f5b0a1a4fdb1a36d074bd59f8964c6cf378f0233acf4a3ce03c9bcd41099f",
-          "sha256": "48c95bcce07f195923b5780877afe2fccdc171585b9266deeecca08b1358c40e",
-          "sha1": "8c5b28afad90f53b9d4fdbb2eb4b20a948b2a961",
-          "md5": "b5f9e2154448c63307280433d934455b"
+          "name": "kzen-lib-common-js-0.22.1.jar",
+          "url": "kzen-lib-common-js-0.22.1.jar",
+          "size": 295920,
+          "sha512": "4ff91f0f9a9193d20a8ed6961dba92135f846ce09a6f05e4f15aa2f4abfe8064b64f2a9303268c3fcee791879d263c74038d44b9814c037fcfea8f29e827e162",
+          "sha256": "5fb8f887e9fae026ba585ef6b84abbe67cf2d05fee3f9fe4b91912293d38e4b6",
+          "sha1": "04b0577720a01bb38fbadd773c3e3992e9aeab32",
+          "md5": "f6489d89c2eb6353315e00cdc1ce952f"
         }
       ]
     }

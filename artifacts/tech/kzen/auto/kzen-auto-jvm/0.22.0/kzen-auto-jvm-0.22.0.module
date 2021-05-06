@@ -1,0 +1,243 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-jvm",
+    "version": "0.22.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-jvm",
+          "version": {
+            "requires": "0.22.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-jvm-0.22.0.jar",
+          "url": "kzen-auto-jvm-0.22.0.jar",
+          "size": 3933232,
+          "sha512": "21beff9cde5b118459da4e426dabc5a04c15df7226c6d86398f76dfeb70e995881f4953057bc4a4446c99e8f9b080489751b50d77246b4286663600db601bc44",
+          "sha256": "7202aafdd1d5b8685c49472f9fe2dc3aae4de79891d8151ddc2ded742ac036c1",
+          "sha1": "1e7d0f2497870c90bfe3b295a3b028cb798667e5",
+          "md5": "cc87b71c7861816bc3d43357c465f367"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.kzen.auto",
+          "module": "kzen-auto-common",
+          "version": {
+            "requires": "0.22.0"
+          }
+        },
+        {
+          "group": "tech.kzen.auto",
+          "module": "kzen-auto-plugin",
+          "version": {
+            "requires": "0.22.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-compiler-embeddable",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "kotlin-css-jvm",
+          "version": {
+            "requires": "1.0.0-pre.154-kotlin-1.5.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.12.2"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "3.141.59"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.20"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil-core",
+          "version": {
+            "requires": "8.5.4"
+          }
+        },
+        {
+          "group": "io.lacuna",
+          "module": "bifurcan",
+          "version": {
+            "requires": "0.2.0-alpha4"
+          }
+        },
+        {
+          "group": "com.h2database",
+          "module": "h2",
+          "version": {
+            "requires": "1.4.200"
+          }
+        },
+        {
+          "group": "net.openhft",
+          "module": "zero-allocation-hashing",
+          "version": {
+            "requires": "0.12"
+          }
+        },
+        {
+          "group": "com.lmax",
+          "module": "disruptor",
+          "version": {
+            "requires": "3.4.4"
+          }
+        },
+        {
+          "group": "com.sangupta",
+          "module": "bloomfilter",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-jvm",
+          "version": {
+            "requires": "0.22.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux"
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-jvm-0.22.0.jar",
+          "url": "kzen-auto-jvm-0.22.0.jar",
+          "size": 3933232,
+          "sha512": "21beff9cde5b118459da4e426dabc5a04c15df7226c6d86398f76dfeb70e995881f4953057bc4a4446c99e8f9b080489751b50d77246b4286663600db601bc44",
+          "sha256": "7202aafdd1d5b8685c49472f9fe2dc3aae4de79891d8151ddc2ded742ac036c1",
+          "sha1": "1e7d0f2497870c90bfe3b295a3b028cb798667e5",
+          "md5": "cc87b71c7861816bc3d43357c465f367"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kzen-auto-jvm-0.22.0-all.jar",
+          "url": "kzen-auto-jvm-0.22.0-all.jar",
+          "size": 98436427,
+          "sha512": "6c9dbe16aa5599cbdf270ac4820fec4ebdf07c2b21ad08a9d8cd000853c7d7106ca9c8f12bf76705cb80ade5846f549eb8a1e57de4d92688a452ec472d6d5c2e",
+          "sha256": "525b91461da254054ed6b6b83e79b9711960802d3223092cb40352396c183f15",
+          "sha1": "dc5ff82f1903f8c7cb888ba5605752a973d4248d",
+          "md5": "c9fb73061374972f15b575bcbd6eabec"
+        }
+      ]
+    }
+  ]
+}

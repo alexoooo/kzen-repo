@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-plugin",
+    "version": "0.22.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-plugin-0.22.0.jar",
+          "url": "kzen-auto-plugin-0.22.0.jar",
+          "size": 31942,
+          "sha512": "24374adb15d5ae89f8a715d55dc1a7d02032da456c51766cebca8c8cf1a63bde8e15224c71eadcbe92fa1888dee2314f1ee8845c6e73cab505607c940b4ab29a",
+          "sha256": "9e77ee531e4b880fa05a9017087194e11bd52368ce7a38795ef4042521c1aba2",
+          "sha1": "dcfa1383b32de275d04af5d882b1b33d9b2299f7",
+          "md5": "7d329f22ae13d1ffc611e9b81e4495a6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-plugin-0.22.0.jar",
+          "url": "kzen-auto-plugin-0.22.0.jar",
+          "size": 31942,
+          "sha512": "24374adb15d5ae89f8a715d55dc1a7d02032da456c51766cebca8c8cf1a63bde8e15224c71eadcbe92fa1888dee2314f1ee8845c6e73cab505607c940b4ab29a",
+          "sha256": "9e77ee531e4b880fa05a9017087194e11bd52368ce7a38795ef4042521c1aba2",
+          "sha1": "dcfa1383b32de275d04af5d882b1b33d9b2299f7",
+          "md5": "7d329f22ae13d1ffc611e9b81e4495a6"
+        }
+      ]
+    }
+  ]
+}

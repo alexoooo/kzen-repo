@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kzen-lib-common/0.24.0/kzen-lib-common-0.24.0.module",
+    "group": "tech.kzen.lib",
+    "module": "kzen-lib-common",
+    "version": "0.24.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.31"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-lib-common-jvm-0.24.0.jar",
+          "url": "kzen-lib-common-jvm-0.24.0.jar",
+          "size": 625302,
+          "sha512": "60ee5434a95f13eccd0fccd2dfd40289209c37a4ed57210a311a7537c8f7bd8792352be2a001dd7607d61d1526b425b3620415651647c6826b0dfa5ddcf8f0d2",
+          "sha256": "b804f9f8ccd68de0d452057474abd8bd8cf60d4e7b6df194f50590c062c2c84d",
+          "sha1": "6a31143e3846250985ddcecb2a4b9b8c612880eb",
+          "md5": "78beb09e5026c3dab0ad3e01362f0c07"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.5.31"
+          }
+        },
+        {
+          "group": "com.github.andrewoma.dexx",
+          "module": "collection",
+          "version": {
+            "requires": "0.7"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-lib-common-jvm-0.24.0.jar",
+          "url": "kzen-lib-common-jvm-0.24.0.jar",
+          "size": 625302,
+          "sha512": "60ee5434a95f13eccd0fccd2dfd40289209c37a4ed57210a311a7537c8f7bd8792352be2a001dd7607d61d1526b425b3620415651647c6826b0dfa5ddcf8f0d2",
+          "sha256": "b804f9f8ccd68de0d452057474abd8bd8cf60d4e7b6df194f50590c062c2c84d",
+          "sha1": "6a31143e3846250985ddcecb2a4b9b8c612880eb",
+          "md5": "78beb09e5026c3dab0ad3e01362f0c07"
+        }
+      ]
+    }
+  ]
+}

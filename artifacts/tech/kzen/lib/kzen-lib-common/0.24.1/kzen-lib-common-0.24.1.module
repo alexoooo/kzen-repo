@@ -3,20 +3,21 @@
   "component": {
     "group": "tech.kzen.lib",
     "module": "kzen-lib-common",
-    "version": "0.24.0",
+    "version": "0.24.1",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "7.2"
+      "version": "7.3"
     }
   },
   "variants": [
     {
       "name": "metadataApiElements",
       "attributes": {
+        "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.platform.type": "common"
       },
@@ -32,76 +33,82 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-common",
           "version": {
-            "requires": "1.5.31"
+            "requires": "1.6.0"
           }
         }
       ],
       "files": [
         {
-          "name": "kzen-lib-common-metadata-0.24.0.jar",
-          "url": "kzen-lib-common-0.24.0.jar",
+          "name": "kzen-lib-common-metadata-0.24.1.jar",
+          "url": "kzen-lib-common-0.24.1.jar",
           "size": 132741,
-          "sha512": "4774942549e9947f00b03942f9e62c5ac6d639c3f90302d9002e17f06bc0f952d52617fdb7b7a85fb45f390416620147bc5de23f3cd54c2c11494c33c8756ee8",
-          "sha256": "66dafeba63956c7a9ce854087dd0a76240da9e6f29fb973f5a799447580c9d7e",
-          "sha1": "d71c53baa47edf7cad8cf024507a60690bcc79f2",
-          "md5": "a0845d5a434413da0b9024a095f93975"
+          "sha512": "42b0acebb493405374d560a0c8d29258ae07d6dbb69688e9199bcea8a11e1ca97c303f8ad34675c66cfbe7f39eefb1679fb3010a0d85d703a8476763aea7d6eb",
+          "sha256": "df268e339077605c3fe014d1b09e7ef36d719ffad4fee66579232fcb79cee615",
+          "sha1": "59a4be785e36fd543363f3f477a7d668a56c9044",
+          "md5": "a950ae44489c721f6f77aaf60f841d5f"
         }
       ]
     },
     {
       "name": "jsApiElements-published",
       "attributes": {
+        "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-api",
         "org.jetbrains.kotlin.js.compiler": "legacy",
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-js/0.24.0/kzen-lib-common-js-0.24.0.module",
+        "url": "../../kzen-lib-common-js/0.24.1/kzen-lib-common-js-0.24.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-js",
-        "version": "0.24.0"
+        "version": "0.24.1"
       }
     },
     {
       "name": "jsRuntimeElements-published",
       "attributes": {
+        "org.gradle.category": "library",
         "org.gradle.usage": "kotlin-runtime",
         "org.jetbrains.kotlin.js.compiler": "legacy",
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-js/0.24.0/kzen-lib-common-js-0.24.0.module",
+        "url": "../../kzen-lib-common-js/0.24.1/kzen-lib-common-js-0.24.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-js",
-        "version": "0.24.0"
+        "version": "0.24.1"
       }
     },
     {
       "name": "jvmApiElements-published",
       "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-jvm/0.24.0/kzen-lib-common-jvm-0.24.0.module",
+        "url": "../../kzen-lib-common-jvm/0.24.1/kzen-lib-common-jvm-0.24.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-jvm",
-        "version": "0.24.0"
+        "version": "0.24.1"
       }
     },
     {
       "name": "jvmRuntimeElements-published",
       "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kzen-lib-common-jvm/0.24.0/kzen-lib-common-jvm-0.24.0.module",
+        "url": "../../kzen-lib-common-jvm/0.24.1/kzen-lib-common-jvm-0.24.1.module",
         "group": "tech.kzen.lib",
         "module": "kzen-lib-common-jvm",
-        "version": "0.24.0"
+        "version": "0.24.1"
       }
     }
   ]

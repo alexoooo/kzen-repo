@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kzen-auto-common/0.25.0/kzen-auto-common-0.25.0.module",
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-common",
+    "version": "0.25.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-common-jvm",
+          "version": {
+            "requires": "0.25.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-common",
+          "version": {
+            "requires": "0.25.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-common-jvm-0.25.0.jar",
+          "url": "kzen-auto-common-jvm-0.25.0.jar",
+          "size": 713781,
+          "sha512": "1e173ec499207a24dcff28162d11f5e481af5b46b2eece4bc538c826760390f47645b904169aed505639f936b1e8ac875f1c362a36d9879a4609138300ca4b58",
+          "sha256": "848a29e7f6a9769cac14bb7e2e337d423450800ea4dcd29aa01c9b195c21ef5e",
+          "sha1": "9efe0f78c87b943e8d1b351b60f58fdc2ef6e4c5",
+          "md5": "4f3ddfdc4eee8e5dd42600fe5f39d6bd"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-common-jvm",
+          "version": {
+            "requires": "0.25.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-common",
+          "version": {
+            "requires": "0.25.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-css-jvm",
+          "version": {
+            "requires": "1.0.0-pre.344"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-css",
+          "version": {
+            "requires": "1.0.0-pre.344"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-common-jvm-0.25.0.jar",
+          "url": "kzen-auto-common-jvm-0.25.0.jar",
+          "size": 713781,
+          "sha512": "1e173ec499207a24dcff28162d11f5e481af5b46b2eece4bc538c826760390f47645b904169aed505639f936b1e8ac875f1c362a36d9879a4609138300ca4b58",
+          "sha256": "848a29e7f6a9769cac14bb7e2e337d423450800ea4dcd29aa01c9b195c21ef5e",
+          "sha1": "9efe0f78c87b943e8d1b351b60f58fdc2ef6e4c5",
+          "md5": "4f3ddfdc4eee8e5dd42600fe5f39d6bd"
+        }
+      ]
+    }
+  ]
+}

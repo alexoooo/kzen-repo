@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kzen-lib-common/0.26.0/kzen-lib-common-0.26.0.module",
+    "group": "tech.kzen.lib",
+    "module": "kzen-lib-common",
+    "version": "0.26.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-lib-common-jvm-0.26.0.jar",
+          "url": "kzen-lib-common-jvm-0.26.0.jar",
+          "size": 634639,
+          "sha512": "604b20d6236758f46fa091e4978767340efb3f27e0a18e1c31aa2dae1ee0979dacd0412ff5e1e6f51fa5e16dd932c3bb7250ee8582c11181235d49a9e2dbf071",
+          "sha256": "07223ec819851bf410347cbb19d09be993f10a561abc3fcb1f62fe8d8b5d119f",
+          "sha1": "873d65eed2550733d7364686ea5a9349e4650820",
+          "md5": "664e6ef026afd7e3c6762d0a0655a1ba"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "com.github.andrewoma.dexx",
+          "module": "collection",
+          "version": {
+            "requires": "0.7"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-lib-common-jvm-0.26.0.jar",
+          "url": "kzen-lib-common-jvm-0.26.0.jar",
+          "size": 634639,
+          "sha512": "604b20d6236758f46fa091e4978767340efb3f27e0a18e1c31aa2dae1ee0979dacd0412ff5e1e6f51fa5e16dd932c3bb7250ee8582c11181235d49a9e2dbf071",
+          "sha256": "07223ec819851bf410347cbb19d09be993f10a561abc3fcb1f62fe8d8b5d119f",
+          "sha1": "873d65eed2550733d7364686ea5a9349e4650820",
+          "md5": "664e6ef026afd7e3c6762d0a0655a1ba"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kzen-lib-common-jvm-0.26.0-sources.jar",
+          "url": "kzen-lib-common-jvm-0.26.0-sources.jar",
+          "size": 115296,
+          "sha512": "42f1c60c839961367059ed6e159f8e2c5aa43e34e86bc5282c6a4ba49fb25680d06ba84e23c2c5ba0a33fdbfc59048eed1a4a34fd45e91787c9a2887dfcd4aea",
+          "sha256": "10791942d1d300cd53a82718d68ef0f579255cf62dcdfa1ca298d55f6c868a36",
+          "sha1": "0a9b5ead23e5994ef839de9beee6c3303d54eb25",
+          "md5": "6364b797929e8c261aa5a41c407beb4e"
+        }
+      ]
+    }
+  ]
+}

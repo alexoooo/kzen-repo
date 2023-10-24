@@ -1,0 +1,285 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-jvm",
+    "version": "0.27.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 19,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.kzen.auto",
+          "module": "kzen-auto-plugin",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-jvm",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.14.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-jvm-0.27.0.jar",
+          "url": "kzen-auto-jvm-0.27.0.jar",
+          "size": 4421344,
+          "sha512": "ed0cbceb43cecdb59a38eae9376a76fe00fe1833f007604ba38ff6bb305d3d45a464fbe38da727753629dc3393c1ad7a8cbcc891740de62df554413b13ab5cd7",
+          "sha256": "9b588b7bfa47ffdecdc73a52f2421f43aa8ecdb39cb045ecfa0dc3c0b8280ab5",
+          "sha1": "119b15531b9c5c15a9e6263db28d549f79cf5a29",
+          "md5": "7bae82c0e0283e78ed730067ccdd912d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 19,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "tech.kzen.auto",
+          "module": "kzen-auto-common",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-jvm-host",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-scripting-compiler-embeddable",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.11"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.module",
+          "module": "jackson-module-kotlin",
+          "version": {
+            "requires": "2.15.3"
+          }
+        },
+        {
+          "group": "io.github.bonigarcia",
+          "module": "webdrivermanager",
+          "version": {
+            "requires": "5.5.3"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.24.0"
+          }
+        },
+        {
+          "group": "it.unimi.dsi",
+          "module": "fastutil-core",
+          "version": {
+            "requires": "8.5.12"
+          }
+        },
+        {
+          "group": "io.lacuna",
+          "module": "bifurcan",
+          "version": {
+            "requires": "0.2.0-alpha6"
+          }
+        },
+        {
+          "group": "com.h2database",
+          "module": "h2",
+          "version": {
+            "requires": "2.2.224"
+          }
+        },
+        {
+          "group": "com.lmax",
+          "module": "disruptor",
+          "version": {
+            "requires": "3.4.4"
+          }
+        },
+        {
+          "group": "com.sangupta",
+          "module": "bloomfilter",
+          "version": {
+            "requires": "0.9.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.14.0"
+          }
+        },
+        {
+          "group": "com.linkedin.migz",
+          "module": "migz",
+          "version": {
+            "requires": "2.0.beta-1"
+          }
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty",
+          "version": {
+            "requires": "2.3.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-html-builder-jvm",
+          "version": {
+            "requires": "2.3.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation",
+          "version": {
+            "requires": "2.3.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-jackson",
+          "version": {
+            "requires": "2.3.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-html-jvm",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "tech.kzen.auto",
+          "module": "kzen-auto-plugin",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-jvm",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.14.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-jvm-0.27.0.jar",
+          "url": "kzen-auto-jvm-0.27.0.jar",
+          "size": 4421344,
+          "sha512": "ed0cbceb43cecdb59a38eae9376a76fe00fe1833f007604ba38ff6bb305d3d45a464fbe38da727753629dc3393c1ad7a8cbcc891740de62df554413b13ab5cd7",
+          "sha256": "9b588b7bfa47ffdecdc73a52f2421f43aa8ecdb39cb045ecfa0dc3c0b8280ab5",
+          "sha1": "119b15531b9c5c15a9e6263db28d549f79cf5a29",
+          "md5": "7bae82c0e0283e78ed730067ccdd912d"
+        }
+      ]
+    }
+  ]
+}

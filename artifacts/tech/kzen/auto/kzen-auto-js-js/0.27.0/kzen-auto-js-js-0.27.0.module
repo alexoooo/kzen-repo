@@ -1,0 +1,183 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kzen-auto-js/0.27.0/kzen-auto-js-0.27.0.module",
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-js",
+    "version": "0.27.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-js",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-js-js-0.27.0.klib",
+          "url": "kzen-auto-js-js-0.27.0.klib",
+          "size": 1179019,
+          "sha512": "df8173e179341a78f3cdc6de59ffd02fd7d9e71343aa2b398261aa36c43fe334727677d05bdca25a950fbeaffb515891c149db0cd3813853046d94b4c85c7d1f",
+          "sha256": "e8936821c2ab959b45b2cc2b7b51a70b1d55465dca5cd0f282a23190271fcbeb",
+          "sha1": "6c4313ec2bb34519ed7c844723e637d8ac8d0812",
+          "md5": "e7a35889964d2470e7b71ff91ef691f0"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "tech.kzen.lib",
+          "module": "kzen-lib-js",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "tech.kzen.auto",
+          "module": "kzen-auto-common",
+          "version": {
+            "requires": "0.27.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-react",
+          "version": {
+            "requires": "18.2.0-pre.634"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-react-dom",
+          "version": {
+            "requires": "18.2.0-pre.634"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-emotion",
+          "version": {
+            "requires": "11.11.1-pre.634"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin-wrappers",
+          "module": "kotlin-mui",
+          "version": {
+            "requires": "5.14.12-pre.634"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-js-js-0.27.0.klib",
+          "url": "kzen-auto-js-js-0.27.0.klib",
+          "size": 1179019,
+          "sha512": "df8173e179341a78f3cdc6de59ffd02fd7d9e71343aa2b398261aa36c43fe334727677d05bdca25a950fbeaffb515891c149db0cd3813853046d94b4c85c7d1f",
+          "sha256": "e8936821c2ab959b45b2cc2b7b51a70b1d55465dca5cd0f282a23190271fcbeb",
+          "sha1": "6c4313ec2bb34519ed7c844723e637d8ac8d0812",
+          "md5": "e7a35889964d2470e7b71ff91ef691f0"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "kzen-auto-js-js-0.27.0-sources.jar",
+          "url": "kzen-auto-js-js-0.27.0-sources.jar",
+          "size": 262977,
+          "sha512": "1877013832a5e54c0e1ee6d710ce85754b3447ac4297d5eef982c4b063d042a2ba061d8743859e5856f5db065166b8135554f914b56b4db34ad109685dd61a9d",
+          "sha256": "9d113166c11d1fa6af75a31ddcee3b734950805af584e7db8b143fbcb6d159e5",
+          "sha1": "1c3c89f7968a9c048494e729fa98de38df5d879a",
+          "md5": "2ba2638ca26334ddb172174b9b90b0a2"
+        }
+      ]
+    }
+  ]
+}

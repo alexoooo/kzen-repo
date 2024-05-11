@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "tech.kzen.auto",
+    "module": "kzen-auto-plugin",
+    "version": "0.28.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.openhft",
+          "module": "zero-allocation-hashing",
+          "version": {
+            "requires": "0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-plugin-0.28.0.jar",
+          "url": "kzen-auto-plugin-0.28.0.jar",
+          "size": 76667,
+          "sha512": "1adfb710a0dd03350c3ef6154400221974aa5526816975ddc87275a1568d03c9e4d0756e7fd3e1d55e8e1689feb4d7d79850614ecc5b5a4fd4fcc6fc0001b83a",
+          "sha256": "219a1c7b62c5afd3a4ad1cd5a6ecb37cf656681239d52892650651b72ca2b5cc",
+          "sha1": "3b88215647fabf42fd0327d182f29e449b377e69",
+          "md5": "74420ef640c8af347c64286f321e6b95"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.openhft",
+          "module": "zero-allocation-hashing",
+          "version": {
+            "requires": "0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-auto-plugin-0.28.0.jar",
+          "url": "kzen-auto-plugin-0.28.0.jar",
+          "size": 76667,
+          "sha512": "1adfb710a0dd03350c3ef6154400221974aa5526816975ddc87275a1568d03c9e4d0756e7fd3e1d55e8e1689feb4d7d79850614ecc5b5a4fd4fcc6fc0001b83a",
+          "sha256": "219a1c7b62c5afd3a4ad1cd5a6ecb37cf656681239d52892650651b72ca2b5cc",
+          "sha1": "3b88215647fabf42fd0327d182f29e449b377e69",
+          "md5": "74420ef640c8af347c64286f321e6b95"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kzen-lib-common/0.28.0/kzen-lib-common-0.28.0.module",
+    "group": "tech.kzen.lib",
+    "module": "kzen-lib-common",
+    "version": "0.28.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-lib-common-jvm-0.28.0.jar",
+          "url": "kzen-lib-common-jvm-0.28.0.jar",
+          "size": 724411,
+          "sha512": "efa26588c33edc844c0bc327c174b5326b5cde71373639c1fa80e9903477b990a424834292020a7e40b19856d466ee48891cb401daad389fc6182bf450c40c02",
+          "sha256": "c88ea96f888ab3476094483acfa1e5a1ce17e5be831ac018128c2e4b39c622ac",
+          "sha1": "9e227ce421ead267c194be4c495f3c6c1fc22863",
+          "md5": "cdf4258445fc10a0cbf3d7c8175ae405"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "com.github.andrewoma.dexx",
+          "module": "collection",
+          "version": {
+            "requires": "0.7"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.2.0-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kzen-lib-common-jvm-0.28.0.jar",
+          "url": "kzen-lib-common-jvm-0.28.0.jar",
+          "size": 724411,
+          "sha512": "efa26588c33edc844c0bc327c174b5326b5cde71373639c1fa80e9903477b990a424834292020a7e40b19856d466ee48891cb401daad389fc6182bf450c40c02",
+          "sha256": "c88ea96f888ab3476094483acfa1e5a1ce17e5be831ac018128c2e4b39c622ac",
+          "sha1": "9e227ce421ead267c194be4c495f3c6c1fc22863",
+          "md5": "cdf4258445fc10a0cbf3d7c8175ae405"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kzen-lib-common-jvm-0.28.0-sources.jar",
+          "url": "kzen-lib-common-jvm-0.28.0-sources.jar",
+          "size": 125054,
+          "sha512": "c137efc2ba32da9492cd332513f68bff84878b7a47feb2a6a8066d8d5f8a6faa7f0e2f5277c6c5ee9d9af1ec5d518ce2227677b6bc09c6036c638f19f8d59084",
+          "sha256": "d161216934c3bc4498bf426846ea04b2c68df27fd7a0d7fea78e82c8a8adf053",
+          "sha1": "d8f738bb508f170c9bb68d4f69b4d19ca7d322a2",
+          "md5": "d18511e6ae2196859f6b82407914c090"
+        }
+      ]
+    }
+  ]
+}

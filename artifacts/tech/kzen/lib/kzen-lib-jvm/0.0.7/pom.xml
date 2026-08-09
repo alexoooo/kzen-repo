@@ -7,7 +7,7 @@
     <version>0.0.7</version>
 
     <properties>
-        <kotlin.version>1.2.61</kotlin.version>
+        <kotlin.version>1.6.0</kotlin.version>
     </properties>
 
     <dependencies>
